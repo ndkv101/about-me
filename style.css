@@ -1,0 +1,154 @@
+/* CSS files add styling rules*/
+html {
+    height: 100%;
+    
+  }
+/* CSS files add styling rules to the boday contents*/ 
+
+  body {
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    margin: 0;
+    height: 100%;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: #fff;
+    color: #484259;
+    box-sizing:border-box;
+  }
+/* CSS files add styling rules to heading and header sections*/
+  .heading {
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: #fc6600;
+    padding-top: 80px;
+  }
+   
+  #header {
+    display: block;
+    color: #fc6600;
+    text-align: center;
+    background-color: #f2f2f0;
+  }
+
+  #title {
+    display: inline-block;
+    color: #fc6600;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    background-color: #f2f2f0;
+    letter-spacing: 20px;
+  }
+/* CSS files add styling rules to navigation bar*/
+.nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+   
+  .nav a {
+    text-decoration: none;
+    color: #fc6600;
+    display: block;
+    transition: .3s background-color;
+  }
+   
+  .nav a:hover {
+    background-color: #005f5f;
+  }
+   
+  .nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+  }
+   
+    .nav li {
+      width: 170px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1em;
+      display: inline-block;
+      margin-right: -4px;
+    }
+   
+/* CSS files add styling rules to the main section*/
+section p {
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+  #content {
+    display: table-cell;
+    width: 70%;
+    vertical-align: top;
+    background-color: #f9f9f9;
+  }
+
+  #content > section > p {
+      padding-top: 10px;
+      font-size: 20px;
+      text-align: justify;
+  }
+
+/* CSS files add styling rules to side bar section*/
+  #sidebar {
+	  display: table-cell;
+	  width: 30%;
+    vertical-align: top;
+    background-color: #f9f9f9;
+    border-left: dashed 1px #fc6600;
+    color: #484259;
+}
+
+#profile-pic {
+  width: 160px;
+  height: 160px;
+  margin: auto;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+#profile-pic:hover {
+  transform: scale(1.2);
+}
+
+#my-info {
+  margin: auto;
+  padding-left: 50px;
+  padding-bottom: 100px;
+}
+/* CSS files add styling rules to footer section*/
+footer > p {
+  text-align: center;
+  color: #fc6600;
+}
+
+  #footer {
+    background-color:#e6e6e6;
+    display: block;
+    clear: both;
+    position: relative;
+    bottom: 0; left: 0;
+    padding: 1rem;
+  }
+  
+  #footer-button {
+    display: flex;
+    background: #fc6600;
+    color: #fff;
+    height: 1.5rem;
+    width: 50px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    align-content: center;
+    vertical-align: middle;
+  }
