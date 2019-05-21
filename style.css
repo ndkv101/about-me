@@ -1,7 +1,6 @@
 /* CSS files add styling rules*/
 html {
     height: 100%;
-    
   }
 /* CSS files add styling rules to the boday contents*/ 
 
@@ -11,34 +10,53 @@ html {
     letter-spacing: 1px;
     margin: 0;
     height: 100%;
-    margin-left: 120px;
-    margin-right: 120px;
     background-color: #fff;
     color: #484259;
     box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 /* CSS files add styling rules to heading and header sections*/
+  h1 {
+    background: linear-gradient(135deg, #EFBB35, #B63163);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 0.5em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    animation: pulse 5s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      background-color: #EFBB35;
+    }
+    100% {
+      background-color: #B63163;
+    }
+  }
+
   .heading {
     letter-spacing: 0.1rem;
     text-align: center;
-    color: #fc6600;
+    color: #EFBB35;
     padding-top: 80px;
   }
    
   #header {
     display: block;
-    color: #fc6600;
+    color: #EFBB35;
     text-align: center;
-    background-color: #f2f2f0;
+    background-color: #2A3034;
   }
 
   #title {
     display: inline-block;
-    color: #fc6600;
+    color: #EFBB35;
     font-size: 30px;
     padding: 5px;
     text-align: center;
-    background-color: #f2f2f0;
+    background-color: #2A3034;
     letter-spacing: 20px;
   }
 /* CSS files add styling rules to navigation bar*/
@@ -52,13 +70,14 @@ html {
    
   .nav a {
     text-decoration: none;
-    color: #fc6600;
+    color: #EFBB35;
     display: block;
     transition: .3s background-color;
+    font-weight: bold;
   }
    
   .nav a:hover {
-    background-color: #005f5f;
+    border-bottom: #61DAFB solid 3px;
   }
    
   .nav a.active {
@@ -68,7 +87,7 @@ html {
   }
    
     .nav li {
-      width: 170px;
+      width: 180px;
       border-bottom: none;
       height: 50px;
       line-height: 50px;
@@ -82,37 +101,46 @@ section p {
   padding: 10px;
   padding-left: 50px;
   padding-right: 50px;
+  font: 12pt/26pt satisfy;
+  margin: 60px auto auto auto;
 }
 
   #content {
     display: table-cell;
-    width: 70%;
+    width: 80%;
     vertical-align: top;
-    background-color: #f9f9f9;
+    background-color: #222831;
+    color: #fff;
   }
 
   #content > section > p {
       padding-top: 10px;
       font-size: 20px;
       text-align: justify;
+      
   }
 
 /* CSS files add styling rules to side bar section*/
   #sidebar {
 	  display: table-cell;
-	  width: 30%;
+	  width: 20%;
     vertical-align: top;
-    background-color: #f9f9f9;
-    border-left: dashed 1px #fc6600;
-    color: #484259;
+    background-color: #222831;
+    border-left: dashed 3px #EFBB35;
+    color: #fff;
 }
 
 #profile-pic {
-  width: 160px;
-  height: 160px;
+  width: 150px;
+  height: 200px;
   margin: auto;
   padding-left: 20px;
   padding-top: 10px;
+}
+
+img {
+  border: 2px solid #EFBB35;
+  filter: drop-shadow(0 0 3px #EFBB35);
 }
 
 #profile-pic:hover {
@@ -121,17 +149,20 @@ section p {
 
 #my-info {
   margin: auto;
+  margin-top: 50px;
   padding-left: 50px;
   padding-bottom: 100px;
+  color: #61DAFB;
 }
 /* CSS files add styling rules to footer section*/
 footer > p {
   text-align: center;
-  color: #fc6600;
+  color: #EFBB35;
 }
 
   #footer {
-    background-color:#e6e6e6;
+    background-color:#2E3231;
+    color: #fff;
     display: block;
     clear: both;
     position: relative;
@@ -141,14 +172,17 @@ footer > p {
   
   #footer-button {
     display: flex;
-    background: #fc6600;
-    color: #fff;
     height: 1.5rem;
-    width: 50px;
-    padding: 10px 15px;
+    width: 100px;
     text-decoration: none;
-    font-size: 1rem;
-    border-radius: 4px;
+    font-size: 1.5rem;
     align-content: center;
     vertical-align: middle;
+    background: linear-gradient(135deg, #EFBB35, #B63163);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 0.5em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
   }
